@@ -3,7 +3,25 @@
 
     <head>
 
-    <style></style>
+    <style>
+
+        .title{
+
+            text-align: center;
+            font-size: 4vw;
+            margin: 35%;
+            text-shadow: 2px 2px #A9A9A9;
+
+        }
+
+        .data{
+            text-align: center;
+            color: red;
+
+        }
+
+
+    </style>
 
 
 <?php
@@ -50,9 +68,9 @@ $data_string =  "$br$br String: $string $br Char: $char $br Int: $int $br Float:
 
 <body>
 
-   <b> DataTypes </b>
+   <b class="title"> PHP DataTypes </b>
 
-    <?php echo $data_string?>
+   <b class="data"> <?php echo $data_string?> </b>
 
 
 </body>
